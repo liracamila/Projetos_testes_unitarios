@@ -19,15 +19,33 @@ test('A diferenca de 10 e 2 deve ser igual a 8', () => {
 
 });
 
+test('A diferenca de 10 e 2 não deve ser igual a ', () => {
+
+    expect(diff(10, 2)).not.toBe(5);
+
+});
+
 test('A multiplicacao de 3 e 2 deve ser igual a 6', () => {
 
     expect(product(3, 2)).toBe(6);
 
 });
 
+test('A multiplicacao de 3 e 2 não deve ser igual a 10', () => {
+
+    expect(product(3, 2)).not.toBe(10);
+
+});
+
 test('A divisao de 10 e 2 deve ser igual a 5', () => {
 
     expect(divi(10, 2)).toBe(5);
+
+});
+
+test('A divisao de 10 e 2 não deve ser igual a 4', () => {
+
+    expect(divi(10, 2)).not.toBe(4);
 
 });
 
