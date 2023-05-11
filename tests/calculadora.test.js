@@ -39,7 +39,7 @@ test('A multiplicacao de 3 e 2 não deve ser igual a 10', () => {
 
 test('A divisao de 10 e 2 deve ser igual a 5', () => {
 
-    expect(divi(10, 2)).toBe(3);
+    expect(divi(10, 2)).toBe(5);
 
 });
 
